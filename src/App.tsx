@@ -11,6 +11,9 @@ function App() {
   });
   return (
     <div>
+      <div>
+        <h3 className="bg-slate-700">Than</h3>
+      </div>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/admin" element={<AdminLayout />} />
