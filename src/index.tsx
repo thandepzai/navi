@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
+import './assets/i18n/i18n';
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
